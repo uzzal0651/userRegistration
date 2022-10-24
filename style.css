@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+body {
+  background: #f5f5f5;
+}
+
+.from-container {
+  width: 524px;
+  height: 490px;
+  padding: 40px;
+  background: #f9fafc;
+  border-radius: 4px;
+  margin: 160px auto;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.from-container h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 51px;
+  color: #91a5b7;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.from-container h1 span {
+  color: #5eadf2;
+}
+
+.form-input {
+  width: 367px;
+  height: 40px;
+  padding: 0px 16px;
+  background: #dbe5ee;
+  border: 1px solid #a6c8e6;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.row {
+  text-align: center;
+  margin-bottom: 32px;
+  position: relative;
+}
+.form-button {
+  width: 186px;
+  height: 40px;
+  display: block;
+  background: #5eadf2;
+  border: 1px solid #a6c8e6;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.row2 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+div#name-validation,
+#email-validation,
+#user-validation,
+#name-validation,
+#pass-validation {
+  /* margin-top: 8px; */
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  left: 50%;
+  transition: tra;
+  transform: translateX(-50%);
+}

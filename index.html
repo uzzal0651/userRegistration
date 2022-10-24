@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="from-container">
+      <h1>Create <span>User</span> Account</h1>
+      <form>
+        <div class="row">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Full Name"
+            id="user-name"
+          />
+          <div id="name-validation"></div>
+        </div>
+
+        <div class="row">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="User Name"
+            id="user-name2"
+          />
+          <div id="user-validation"></div>
+        </div>
+
+        <div class="row">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Email"
+            id="user-email"
+          />
+          <div id="email-validation"></div>
+        </div>
+        <div class="row">
+          <input
+            type="password"
+            class="form-input"
+            placeholder="Password"
+            id="pass-word"
+          />
+          <div id="pass-validation"></div>
+        </div>
+
+        <div class="row2">
+          <button type="submit" class="form-button" id="form-btnSubmit">
+            SignUp
+          </button>
+        </div>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
